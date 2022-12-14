@@ -1,12 +1,22 @@
-#include <stdio.h>
-/*0-putchar.c prints the word _putchar on the stdout
- *_putchar: The word to print
- *Return: 0
- *Function name: print_putchar
- *Return-type: int
- *parameter: char
-*/
+#include "main.h"
+	/**
+	 * main - print _putchar
+	 * is written by mbah
+	 * Return: 0
+	 */
 
-int print_putchar(char _putchar) {
-return (write(1, &_putchar, 1))
-}
+
+	int main(void)
+	{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+	}
+
