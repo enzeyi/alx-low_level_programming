@@ -7,10 +7,6 @@
  *parameter: char
 */
 
-int print_putchar(char) {
-  /*print function to write _putchar*/
-  printf('_putchar')\n
-  /*return=0*/
-
-  return 0;
+int print_putchar(char _putchar) {
+return (write(1, &_putchar, 1))
 }
