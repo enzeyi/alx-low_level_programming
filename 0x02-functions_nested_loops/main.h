@@ -2,13 +2,8 @@
 /*If the identifier specified is not defined as a macro, the lines of code immediately follow the condition are passed on to the compiler*/
 /*THE ifndef SYNTAX: #ifndef identifier_here*/
 
-#ifndef main.h
-
-/*#define creates a macro, wich is the association of an identifier or parameterized identifier with a token string*/
-/*#define directive is used to define constants or an expression in our c program*/
-/*The #include is used to include the contents of header files in our C program.*/
-
-#define main.h
+#ifndef main.h 
+#define main.h 
 
 /*
  * File:0-putchar.c
@@ -16,8 +11,8 @@
  * Desc:My header file that contains all the declarations/prototypes for all the functions I used in the 0x02-functions_nested_loops directory
  */
 
-int _putchar(char);
-void print_alphabet(void)
+int _putchar(char c);
+void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
