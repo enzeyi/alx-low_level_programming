@@ -1,13 +1,17 @@
+/*
+ * File 0-putchar.c
+ * Auth: Emmanuel Enzeyi
+ */
+
 #include "main.h"
+
 	/**
-	 * main - print _putchar
+	 * main - prints _putchar followed by a new line
 	 * is written by mbah
 	 * Return: 0
 	 */
-
-
-	int main(void)
-	{
+int main(void)
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -17,6 +21,7 @@
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
-	}
+}
 
