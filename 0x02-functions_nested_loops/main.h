@@ -2,14 +2,8 @@
 /*If the identifier specified is not defined as a macro, the lines of code immediately follow the condition are passed on to the compiler*/
 /*THE ifndef SYNTAX: #ifndef identifier_here*/
 
-#ifndef main.h 
-#define main.h 
-
-/*
- * File:0-putchar.c
- * Auth:Emmanuel Enzeyi
- * Desc:My header file that contains all the declarations/prototypes for all the functions I used in the 0x02-functions_nested_loops directory
- */
+#ifndef main_h 
+#define main_h 
 
 int _putchar(char c);
 void print_alphabet(void);
