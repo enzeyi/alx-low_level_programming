@@ -2,7 +2,7 @@
  * File: 100-prime_factor.c
  * Auth: Emmanuel Enzeyi
  */
-#include <main.h>
+#include <math.h>
 #include <stdio.h>
 
 /**
