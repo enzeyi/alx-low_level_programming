@@ -1,29 +1,18 @@
-/*
- * File: 3-puts.c
- * Auth: ENZEYI
- */
-
-#include "main.h"
-#include <stdio.h>
 /**
- * PC F V SE C R
- * PC: #include "main.h"-
- * PC: #include <stdio.h>
- * F: _puts-prints a string,followed by a new line;
- * F: _putchar-
- * V:i-int type,stores o
- * SE:
- * C:
- * R:void
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
 
-void _putchar(char *str);
-
-int main(void)
+void _puts(char *str)
 {
-	char *str;
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_putchar(str);
-	return (0);
+	int i = 0;
+
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
 
