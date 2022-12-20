@@ -4,10 +4,11 @@
  */
 
 #include "main.h"
-
+#include <stdio.h>
 /**
  * PC F V SE C R
  * PC: #include "main.h"-
+ * PC: #include <stdio.h>
  * F: _puts-prints a string,followed by a new line;
  * F: _putchar-
  * V:i-int type,stores o
@@ -16,15 +17,13 @@
  * R:void
  */
 
-void _puts(char *str)
-{
-int i = 0;
+void _puts(char *str);
 
-while (str[i])
+int main(void)
 {
-	_putchar(str[i]);
-	i++;
-}
-	_putchar('\n')
+	char *str;
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_puts(str);
+	return (0);
 }
 
