@@ -17,13 +17,13 @@
  * R:void
  */
 
-void _puts(char *str);
+void _putchar(char *str);
 
 int main(void)
 {
 	char *str;
 	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
+	_putchar(str);
 	return (0);
 }
 
