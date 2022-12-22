@@ -21,12 +21,13 @@
 
 char *_strcat(char *dest, char *src)
 {
-    size_t dest_len = strlen(dest);
-    size_t i;
+    int index = 0, dest_len = 0;
 
-    for (i = 0; src[i] != '\0'; i++)
-        dest[dest_len + i] = src[i];
-    dest[dest_len + i] = '\0';
+    while (dest[index++])
+        dest_len++;
 
-    return dest;
+    for (index = 0; src[index]; index++)
+        dest[dest_len++] = src[index];
+
+    return (dest);
 }
