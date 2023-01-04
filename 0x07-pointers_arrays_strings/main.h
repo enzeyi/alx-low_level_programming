@@ -2,9 +2,10 @@
 #define MAIN_H
 
 /**
- *F:main.h
- *Auth: Enzeyi
- *Desc: Header file that contains all the prototypes for the functions that I used in this project.
+ * File: main.h
+ * Auth: Enzeyi 
+ * Desc: Header file containing prototypes for all functions
+ *       used in the 0x06-pointers_arrays_strings directory.
  */
 
 #include <stddef.h>
@@ -18,5 +19,6 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
+void set_string(char **s, char *to);
 
 #endif
