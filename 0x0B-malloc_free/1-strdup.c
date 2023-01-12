@@ -1,6 +1,6 @@
 /*
- * FILE: 1-strdup.c
- * AUTH: enzeyi
+ * File: 1-strdup.c
+ * Auth: enzeyi
  */
 
 #include "main.h"
