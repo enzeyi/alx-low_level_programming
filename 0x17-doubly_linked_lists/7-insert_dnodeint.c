@@ -1,6 +1,6 @@
 /*
  * File: 7-insert_dnodeint.c
- * Auth: Brennan D Baraban
+ * Auth: enzeyi
  */
 
 #include "lists.h"
