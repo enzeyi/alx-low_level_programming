@@ -1,6 +1,6 @@
 #define MAIN_H
 
-//FILE: main.h,AUTH: Emmanuel Enzeyi,DESC: Function declarations for the project files
+/*FILE: main.h,AUTH: Emmanuel Enzeyi,DESC: Function declarations for the project files*/
 
 int _putchar(char c);
 void _puts_recursion(char *s);
