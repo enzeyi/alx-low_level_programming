@@ -1,8 +1,8 @@
 #define MAIN_H
 
-//FILE: main.h
-//AUTH: Emmanuel Enzeyi
-//DESC: all the function declarations for my project 8 in alx_low_level_programming
+/*FILE: main.h
+* AUTH: Emmanuel Enzeyi
+* DESC: Function declarations for the project files*/
 
 int _putchar(char c);
 void _puts_recursion(char *s);
