@@ -1,7 +1,7 @@
 /**FILE:0-puts_recursion.c
  * AUTH: Emmanuel Enzeyi
  * DESC: A function that prints a new string,followed by a new line
- **/
+ */
 
 #include "main.h"
 
