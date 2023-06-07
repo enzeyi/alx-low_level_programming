@@ -4,8 +4,10 @@ DESC: A function that prints a new string,followed by a new line*/
 
 #include "main.h"
 
-/*_puts_recursion - Prints a string, followed by a new line 
-@s: The string to be printed.*/
+/**
+ * _puts_recursion - Prints a string, followed by a new line
+ * @s: The string to be printed.
+ */
 
 void _puts_recursion(char *s)
 {
