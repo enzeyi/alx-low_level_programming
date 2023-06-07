@@ -1,6 +1,6 @@
 /*
  * File: 1-print_rev_recursion.c
- * Auth: Brennan D Baraban
+ * Auth: Emmanuel Enzeyi
  */
 
 #include "main.h"
