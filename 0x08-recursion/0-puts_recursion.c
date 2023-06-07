@@ -1,14 +1,9 @@
-/*
- * File: 0-puts_recursion.c
- * Auth: Emmanuel Enzeyi
- */
+/*FILE:0-puts_recursion.c,AUTH: Emmanuel Enzeyi, DESC: A function that prints a new string, followed by a new line*/
 
 #include "main.h"
 
-/**
- * _puts_recursion - Prints a string, followed by a new line.
- * @s: The string to be printed.
- */
+/*_puts_recursion - Prints a string, followed by a new line | @s: The string to be printed.*/
+
 void _puts_recursion(char *s)
 {
 	if (*s)
