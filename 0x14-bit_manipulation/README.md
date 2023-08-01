@@ -1,1 +1,0 @@
-This are my Files and foldrs for bit manipulation in C programming.
