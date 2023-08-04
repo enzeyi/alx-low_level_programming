@@ -1,8 +1,14 @@
-#include "main.h"
+/*
+Auth: Enzeyi
+File: _putchar.c
+*/
+
 #include <unistd.h>
+#include "main.h"
+
 
 /**
- * _putchar - writes the character c to stdout
+ * _putchar - prints the character c
  * @c: The character to print
  *
  * Return: On success 1.
