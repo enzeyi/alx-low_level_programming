@@ -1,1 +1,0 @@
-These are my projects files for file input/output in C programming
