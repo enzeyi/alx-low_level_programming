@@ -2,9 +2,10 @@
 #define MAIN_H
 
 /*
- *FILE: main.h
- *AUTH: Emmanuel Enzeyi
- *DESC: Header file that contains all the prototypes of my
+ * File: main.h
+ * AUth: Emmanuel Enzeyi
+ * Desc: Header file containing prototypes for all functions
+ *       written in the 0x13-bit_manipulation directory.
  */
 
 int _putchar(char c);
@@ -16,4 +17,4 @@ int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
 
-#endif /*MAIN_H*/
+#endif /* MAIN_H */
